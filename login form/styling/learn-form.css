@@ -1,0 +1,53 @@
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+
+}
+
+form {
+ background-color: rgb(241, 241, 241);
+ width: 450px;
+ padding: 20px;
+ border-radius: 5px;
+ display: flex;
+ flex-direction: column;
+ height: 300px;
+}
+label {
+ margin: 5px 0px;
+}
+
+fieldset {
+ border: none;
+}
+label {
+ font-size: 17px;
+ font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+ background-color: rgb(245, 143, 164);
+ border: none;
+}
+
+input[type=text], input[type=email], input[type=submit] {
+ padding: 7px;
+ border: 2px solid rgb(161, 106, 117);
+ border-radius: 4px;
+}
+
+input[type=submit] {
+ background-color: crimson;
+ border: none;
+ color: white;
+ border-radius: 5px;
+ transition: 0.25s;
+ font-size: inherit;
+}
+
+input[type=submit]:hover {
+ background-color: rgb(175, 43, 70);
+}
+
